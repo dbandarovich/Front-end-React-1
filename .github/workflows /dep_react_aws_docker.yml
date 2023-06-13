@@ -1,11 +1,8 @@
-
 name: Deploy React App to AWS EC2 and run Docker container
-
 on:
   push:
     branches:
       - develop
-
 jobs:
   Build:
     runs-on: ubuntu-latest
